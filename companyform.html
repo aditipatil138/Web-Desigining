@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KPIT's Employee Registration Form</title>
+</head>
+
+<body>
+<form>
+<img src="complogo.png" align="middle"/>
+<h2 align="center"><font size="+4" color="#0033FF">KPIT</font></h2>
+</br>
+<p align="center"><font size="+2">Fill in the Employee Registration Form</font></p>
+</br>
+<table align="center" bgcolor="#CCCCCC">
+<tr>
+<td>Name</td>
+<td><input type="text" name="txtnm" id="txtnm"/></td>
+</tr>
+<tr>
+<td>Employee ID Number</td>
+<td><input type="text" name="txtid" id="txtid"/></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea id="textadd" name="txtadd"/></textarea></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="mgender" id="gender">Male
+<input type="radio" name="mgender" id="gender">Female</td>
+<tr>
+<tr>
+<td><label id="lbldes">Designation</label></td>
+<td>
+<select id="sel" name="sel">
+<option id="Select">C.E.O</option>
+<option id="Select">Manager</option>
+<option id="Select">Associate Manager</option>
+<option id="Select">Trainee</option></td>
+</select>
+</tr>
+<tr>
+<td><label id="lbldo">Domain</label></td>
+<td>
+<select id="sel" name="sel">
+<option id="Select">Cyber Security</option>
+<option id="Select">Computer Science</option>
+<option id="Select">Autosar</option>
+<option id="Select">AI</option>
+<option id="Select">Electronics</option>
+<option id="Select">Embbeded</option>
+</td>
+</select>
+</tr>
+<tr>
+<td>Suitable shifts</td>
+<td><input type="checkbox" id="chk1" name="chk1"/>6am to 3pm
+</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" id="chk2" name="chk2"/>3pm to 9pm
+</td>
+<tr>
+<tr>
+<td> </td>
+<td><input type="checkbox" id="chk1" name="chk1"/>9pm to 3am</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="Submit" value="Submit" name="submit"/>
+<input type="reset" value="Cancel" name="reset"/></td>
+</tr>
+</form>
+</body>
+</html>
